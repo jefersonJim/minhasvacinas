@@ -1,0 +1,293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"frameIndex",
+				"frameIndexJump"
+			],
+			[
+				"cor",
+				"cord_x"
+			],
+			[
+				"col",
+				"col_c"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"img",
+				"imgJump"
+			],
+			[
+				"p",
+				"perdeu"
+			],
+			[
+				"lo",
+				"lose"
+			],
+			[
+				"hei",
+				"heightObstaculo"
+			],
+			[
+				"he",
+				"heightObstaculo"
+			],
+			[
+				"wi",
+				"widthObstaculo"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"y",
+				"yObstaculo"
+			],
+			[
+				"x",
+				"xObstaculo"
+			],
+			[
+				"oc",
+				"obstaculos"
+			],
+			[
+				"in",
+				"indiceObstaculo"
+			],
+			[
+				"obs",
+				"obstacles"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"tex",
+				"text1"
+			],
+			[
+				"FAS",
+				"FALSE"
+			],
+			[
+				"s",
+				"script	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/tsconfig.json",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/typings.json",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/systemjs.config.js",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/package.json",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.component.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.module.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/main.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/index.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/styles.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/novo/index.html",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/CodeIgniter-3.1.0/application/views/template/menu.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/fortefinancas/jessica-password",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/CodeIgniter-3.1.0/application/views/template/template.php",
+		"/C/Users/USER/Desktop/fortefinancas.sql",
+		"/C/Users/USER/AppData/Local/Temp/fz3temp-1/MY_Controller.php",
+		"/C/Users/USER/AppData/Local/Temp/fz3temp-1/config.php",
+		"/C/Users/USER/AppData/Local/Temp/fz3temp-1/util_helper.php",
+		"/C/Users/USER/AppData/Local/Temp/fz3temp-1/ContaBancaria.php",
+		"/C/Users/USER/AppData/Local/Temp/fz3temp-1/ContaBancaria_model.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/fortefinancas/bancos.sql",
+		"/C/Users/USER/Documents/desenvolvimento/tb_banco.sql",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/fortefinancas/application/config/config.php",
+		"/C/Users/USER/Desktop/jogo/js/game.js",
+		"/C/Users/USER/Desktop/jogo/index.html",
+		"/C/Users/USER/Desktop/jogo/arquivos.zip",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/teste/index.html",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/novo/css/base.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/novo/js/base.js",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/novo/css/bootstrap.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/modelo_1/js/npm.js",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/TesteMap/app/src/release/res/values/google_maps_api.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/TesteMap/app/src/main/res/values/strings.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/TesteMap/app/src/main/AndroidManifest.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/TesteMap/app/src/main/res/layout/activity_maps.xml",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/teste das divs/css/estilo.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/teste das divs/index.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/app/app.iml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/inspectionProfiles/Project_Default.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/inspectionProfiles/profiles_settings.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/.name",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/compiler.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/encodings.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/gradle.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/misc.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/modules.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/runConfigurations.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineReminder/.idea/vcs.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/.idea/modules.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/gradle/wrapper/gradle-wrapper.properties",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/build.gradle",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/gradle.properties",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/local.properties",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/teste/index.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/modelo_1/index.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/.idea/runConfigurations.xml",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/settings.gradle",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/.idea/.name",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/views/templates/menu.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/controllers/Home.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/controllers/Login.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/config/database.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/core/MY_Controller.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"cod",
+			"bancos",
+			"event",
+			"status",
+			"collapse",
+			";\n",
+			"*/\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true
+}
