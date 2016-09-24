@@ -9,17 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var LoginComponent = (function () {
+    function LoginComponent() {
+        this.mensagem = "";
+        this.error = false;
     }
-    AppComponent = __decorate([
+    LoginComponent.prototype.enviar = function () {
+        this.error = false;
+    };
+    LoginComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<router-outlet></router-outlet>'
+            templateUrl: './view/login.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], LoginComponent);
+    return LoginComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.LoginComponent = LoginComponent;
+//# sourceMappingURL=login.component.js.map
