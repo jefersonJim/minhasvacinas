@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var app_component_1 = require('../components/app.component');
 var vacina_form_component_1 = require('../components/vacina-form.component');
+var paciente_form_component_1 = require('../components/paciente-form.component');
 var login_component_1 = require('../components/login.component');
 var menu_component_1 = require('../components/menu.component');
 var app_routing_1 = require('../app.routing');
@@ -22,7 +23,7 @@ var AppModule = (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing],
-            declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, vacina_form_component_1.VacinaFormComponent, login_component_1.LoginComponent],
+            declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, vacina_form_component_1.VacinaFormComponent, login_component_1.LoginComponent, paciente_form_component_1.PacienteFormComponent],
             providers: [app_routing_1.appRoutingProviders],
             bootstrap: [app_component_1.AppComponent, menu_component_1.MenuComponent]
         }), 

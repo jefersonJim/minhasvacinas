@@ -99,6 +99,56 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "front-end/app/components/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 198,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end/app/components/login.component.ts",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Windows",
+				"name": "import { Component} from '@angular/core';"
+			}
+		},
+		{
+			"file": "front-end/app/components/vacina-form.component.ts",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Windows",
+				"name": "import { Component} from '@angular/core';"
+			}
+		},
+		{
+			"file": "front-end/view/vacina_form.html",
+			"settings":
+			{
+				"buffer_size": 829,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end/view/login.html",
+			"settings":
+			{
+				"buffer_size": 1102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end/index.html",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -124,16 +174,37 @@
 	},
 	"file_history":
 	[
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.routing.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/modules/app.module.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/main.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/components/menu.component.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/components/import.component.js",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/components/import.component.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/components/vacina-form.component.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/main.js.map",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/vacina.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/css/styles.css",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/modules/vacina.module.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/components/vacina.component.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/components/app.component.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/view/login.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/view/menu.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/models/Usuario.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/index.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/systemjs.config.js",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/vacina.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/view/vacina.html",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/fortefinancas/application/views/login.php",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/view/menu.html",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/novo/index.html",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.module.ts",
+		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/main.js",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/tsconfig.json",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/typings.json",
-		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/systemjs.config.js",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/package.json",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.component.ts",
-		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.module.ts",
-		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/main.ts",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/index.html",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/styles.css",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/novo/index.html",
 		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/CodeIgniter-3.1.0/application/views/template/menu.php",
 		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/fortefinancas/jessica-password",
 		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/CodeIgniter-3.1.0/application/views/template/template.php",
@@ -203,6 +274,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Login.ts",
+			"Login",
 			"cod",
 			"bancos",
 			"event",
@@ -227,8 +300,172 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "front-end/app/components/app.component.ts",
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "front-end/app/components/login.component.ts",
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import { Component} from '@angular/core';",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "front-end/app/components/vacina-form.component.ts",
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import { Component} from '@angular/core';",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "front-end/view/vacina_form.html",
+					"settings":
+					{
+						"buffer_size": 829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "front-end/view/login.html",
+					"settings":
+					{
+						"buffer_size": 1102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "front-end/index.html",
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1155,
+								1155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -238,7 +475,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -287,7 +524,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 321.0,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
 	"status_bar_visible": true
 }

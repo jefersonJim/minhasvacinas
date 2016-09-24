@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var VacinaFormComponent = (function () {
-    function VacinaFormComponent() {
+var PacienteFormComponent = (function () {
+    function PacienteFormComponent() {
     }
-    VacinaFormComponent = __decorate([
+    PacienteFormComponent = __decorate([
         core_1.Component({
-            selector: 'form-vacina',
-            templateUrl: './view/vacina_form.html'
+            selector: 'form-pacient',
+            templateUrl: './view/paciente_form.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], VacinaFormComponent);
-    return VacinaFormComponent;
+    ], PacienteFormComponent);
+    return PacienteFormComponent;
 }());
-exports.VacinaFormComponent = VacinaFormComponent;
-//# sourceMappingURL=vacina-form.component.js.map
+exports.PacienteFormComponent = PacienteFormComponent;
+//# sourceMappingURL=paciente-form.component.js.map
