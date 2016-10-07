@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent }   from './components/login.component';
 import { VacinaFormComponent }   from './components/vacina-form.component';
 import { PacienteFormComponent }   from './components/paciente-form.component';
+import { AtendimentoFormComponent }   from './components/atendimento-form.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'vacina', component: VacinaFormComponent },
   { path: 'paciente', component: PacienteFormComponent },
+  { path: 'atendimento', component: AtendimentoFormComponent },
   { path: '', component: LoginComponent }
 ];
 

@@ -5,12 +5,13 @@ import { AppComponent }   from '../components/app.component';
 import { VacinaFormComponent }   from '../components/vacina-form.component';
 import { PacienteFormComponent }   from '../components/paciente-form.component';
 import { LoginComponent }   from '../components/login.component';
+import { AtendimentoFormComponent }   from '../components/atendimento-form.component';
 import { MenuComponent }   from '../components/menu.component';
 import { routing, appRoutingProviders }  from '../app.routing';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule , routing],
-  declarations: [ AppComponent, MenuComponent, VacinaFormComponent, LoginComponent, PacienteFormComponent],
+  declarations: [ AppComponent, MenuComponent, VacinaFormComponent, LoginComponent, PacienteFormComponent, AtendimentoFormComponent],
   providers: 	[ appRoutingProviders ],
   bootstrap:    [ AppComponent, MenuComponent]
 })
