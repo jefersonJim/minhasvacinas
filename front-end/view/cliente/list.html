@@ -1,0 +1,83 @@
+
+<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">	
+	<div class="page-header">
+	  <h3><i class="fa fa-user" aria-hidden="true"></i> Cliente <small> - consulta</small>
+	  	  <small class="bt_header">
+	  	  	<a routerLink="/cliente-form" ><i class="fa fa-plus-square" aria-hidden="true"></i> novo </a>
+	  	  </small>
+	  </h3>
+	</div>
+	
+	<div class="panel panel-default">
+	  <div class="panel-body">
+	  		<div class="row col-md-12">
+	  			<div [hidden]="error == null" class=" col-md-12 alert alert-danger">{{error}}</div>
+	  		</div>
+	  		<div class="row col-md-12">
+	  			<div [hidden]="mensagem == null" class=" col-md-12 alert alert-success">{{mensagem}}</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="col-md-3">
+		  			<label >Código: </label>
+					<input type="number" class="form-control" [(ngModel)]="model.id">
+		  		</div>
+
+		  		<div class="col-md-6">
+		  			<label >Nome: </label>
+					<input type="text" class="form-control" [(ngModel)]="model.nome">
+		  		</div>
+		  	</div>
+		  	<div class="row col-md-12"  style="margin-top: 15px;">
+		    	<button   class="btn btn-success" (click)="listar()" >Consultar</button>
+		    </div>
+
+		    <div class="row col-md-12" style="margin-top:20px;">
+		    	<div class="table-responsive">
+			    	<table class="table table-bordered">
+			    		<thead>
+			    			<tr>
+			    				<th style="width:35px;"></th>
+			    				<th style="text-align:center; width:35px;">Código</th>
+			    				<th style="text-align:center;">Nome</th>
+			    				<th style="width:35px;"></th>
+			    			</tr>
+			    		</thead>
+			    		<tbody>
+			    			<tr *ngFor="let cliente of clientes" >
+			    				<td style="text-align:center; ">
+			    					<a title="Editar" routerLink="/cliente-form/{{cliente.id}}" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+			    				</td>
+			    				<td style="text-align:center; ">{{cliente.id}}</td>
+			    				<td>{{cliente.nome}}</td>
+			    				<td style="text-align:center; ">
+			    					<i title="Excluir" style="color:a30000; cursor:pointer;" data-toggle="modal" data-target="#modalDelete" (click)="prepareExcuir(cliente)" class="fa fa-trash" aria-hidden="true"></i>
+			    				</td>
+			    				
+			    			</tr>
+			    			<tr *ngIf="clientes && clientes.length == 0"> <td colspan="4" style="text-align:center; ">Nenhum registro encontrado</td></tr>
+			    		</tbody>
+			    	</table>
+			    </div>
+		    </div>
+	  </div>
+	</div>
+</div>
+
+<div  class="modal fade" id="modalDelete" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Confirmação</h4>
+      </div>
+      <div class="modal-body">
+      	<p>Após a exclusão não será possível recuperar o registro.</p>
+        <p>Deseja excluir o cliente <strong>{{clienteSelected.nome}}?</strong></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="excluir()" >Excluir</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>

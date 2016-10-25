@@ -1,0 +1,61 @@
+
+<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">
+	<div class="page-header">
+	  <h3><i class="fa fa-user" aria-hidden="true"></i> Cliente <small> - {{state}}</small>
+	  	  <small class="bt_header">
+	  	  	<a routerLink="/cliente" ><i class="fa fa-reply" aria-hidden="true"></i> voltar </a>
+	  	  </small>
+	  </h3>
+	</div>
+	
+	<div class="panel panel-default">
+	  <div class="panel-body">
+	  		
+			<div class="row col-md-12">
+				<p>Os campos com ( <span style="color:red;">*</span> ) são de preenchimento obrigatório</p>
+			</div>	
+			
+	  		<div class="row" style="margin-top: 40px;">
+		  		<div class="col-md-8">
+		  			<label  class="required" >Nome completo: </label>
+					<input required type="text"  class="form-control"  [(ngModel)]="model.nome" #nome="ngModel">
+					<div [hidden]="nome.valid || nome.pristine"  class="alert alert-danger">			
+					  Favor Informar o nome do paciente
+					</div>
+		  		</div>
+		  	</div>
+
+		  	<div class="row" style="margin-top: 5px;">
+		  		<div class="col-md-4">
+		  			<label class="required">CPF:</label>
+					<input required type="text" class="form-control"  [(ngModel)]="model.cpf" #cpf="ngModel">
+					<div [hidden]="cpf.valid || cpf.pristine"  class="alert alert-danger">			
+					  Favor Informar o CPF
+					</div>
+		  		</div>
+
+		  		<div class="col-md-4">
+		  			<label >Telefone fixo:</label>
+					<input required type="text" class="form-control" [(ngModel)]="model.telefone" #telefone="ngModel">
+					<div [hidden]="telefone.valid || telefone.pristine"  class="alert alert-danger">			
+					  Favor Informar o Telefone fixo
+					</div>
+		  		</div>
+
+		  		<div class="col-md-4">
+		  			<label class="required">Celular:</label>
+					<input required type="text" class="form-control" [(ngModel)]="model.celular" #celular="ngModel" >
+					<div [hidden]="celular.valid || celular.pristine"  class="alert alert-danger">			
+					  Favor Informar o Celular
+					</div>
+		  		</div>
+		  	</div>
+
+		  	
+		  	<div class="row col-md-12"  style="margin-top: 15px;">
+		    	<button   class="btn btn-success" (click)="salvar()" 
+		    	[disabled]="(!nome.valid || !cpf.valid || !telefone.valid || !celular.valid)">{{labelBtn}}</button>
+		    </div>
+	  </div>
+	</div>
+</div>

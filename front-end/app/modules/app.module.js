@@ -11,19 +11,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
+var http_1 = require('@angular/http');
 var app_component_1 = require('../components/app.component');
-var vacina_form_component_1 = require('../components/vacina-form.component');
-var paciente_form_component_1 = require('../components/paciente-form.component');
-var login_component_1 = require('../components/login.component');
-var menu_component_1 = require('../components/menu.component');
+var vacina_form_component_1 = require('../components/vacina/vacina-form.component');
+var vacina_list_component_1 = require('../components/vacina/vacina-list.component');
+var cliente_form_component_1 = require('../components/cliente/cliente-form.component');
+var cliente_list_component_1 = require('../components/cliente/cliente-list.component');
+var login_component_1 = require('../components/login/login.component');
+var atendimento_form_component_1 = require('../components/atendimento/atendimento-form.component');
+var menu_component_1 = require('../components/menu/menu.component');
 var app_routing_1 = require('../app.routing');
+/**
+ * @author jeferson Inacio
+ */
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing],
-            declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, vacina_form_component_1.VacinaFormComponent, login_component_1.LoginComponent, paciente_form_component_1.PacienteFormComponent],
+            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing, http_1.HttpModule, http_1.JsonpModule],
+            declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, vacina_form_component_1.VacinaFormComponent, vacina_list_component_1.VacinaListComponent,
+                login_component_1.LoginComponent, cliente_form_component_1.ClienteFormComponent, cliente_list_component_1.ClienteListComponent, atendimento_form_component_1.AtendimentoFormComponent],
             providers: [app_routing_1.appRoutingProviders],
             bootstrap: [app_component_1.AppComponent, menu_component_1.MenuComponent]
         }), 

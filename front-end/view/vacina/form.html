@@ -1,0 +1,55 @@
+
+<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">	
+	<div class="page-header">
+	  <h3><i class="fa fa-medkit" aria-hidden="true"></i> Vacina <small> - {{state}}</small>
+	  	  <small class="bt_header">
+	  	  	<a routerLink="/vacina" ><i class="fa fa-reply" aria-hidden="true"></i> voltar </a>
+	  	  </small>
+	  </h3>
+	</div>
+	
+	<div class="panel panel-default">
+	  <div class="panel-body" >
+	  		<div class="row col-md-12">
+	  			<div [hidden]="error == null" class=" col-md-12 alert alert-danger">{{error}}</div>
+	  		</div>
+	  		<div class="row col-md-12">
+	  			<div [hidden]="mensagem == null" class=" col-md-12 alert alert-success">{{mensagem}}</div>
+	  		</div>
+	  		<div class="row col-md-12">
+				<p>Os campos com ( <span style="color:red;">*</span> ) são de preenchimento obrigatório</p>
+			</div>	
+	  		<div class="row">
+		  		<div class="col-md-6">
+		  			<label class="required" >Nome da vacina: </label>
+					<input required type="text" class="form-control" [(ngModel)]="model.nome" #nome="ngModel">
+					<div [hidden]="nome.valid || nome.pristine"  class="alert alert-danger">
+					  Favor Informar o nome da vacina
+					</div>
+		  		</div>
+
+		  		<div class="col-md-6">
+		  			<label class="required" >Efeitos colaterais: </label>
+					<input required type="text" class="form-control" [(ngModel)]="model.efeitosColaterais" #efeitosColaterais="ngModel">
+					<div [hidden]="efeitosColaterais.valid || efeitosColaterais.pristine"  class="alert alert-danger">
+					  Favor Informar os Efeitos colaterais
+					</div>
+		  		</div>
+		  	</div>
+		  	<div class="row" style="margin-top: 10px;" >
+			  	<div class=" col-md-12">
+			  		<label class="required">Descrição: </label>
+			  		<textarea required class="form-control" [(ngModel)]="model.descricao" #descricao="ngModel">  </textarea>
+					<div [hidden]="descricao.valid || descricao.pristine"  class="alert alert-danger">
+					  Favor Informar descrever a vacina
+					</div>
+
+			  	</div>
+		  	</div>
+		  	<div class="row col-md-12"  style="margin-top: 15px;">
+		    	<button  type="button"  class="btn btn-success" (click)="salvar()" [disabled]="(!nome.valid || !descricao.valid || !efeitosColaterais.valid)">{{labelBtn}}</button>
+		    </div>
+			
+	  </div>
+	</div>
+</div>
