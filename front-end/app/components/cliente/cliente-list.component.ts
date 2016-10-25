@@ -3,9 +3,6 @@ import {ClienteService} from '../../service/cliente-service';
 import {Cliente} from '../../models/Cliente';
 import { OnInit } from '@angular/core';
 
-
-import { OnInit } from '@angular/core';
-
 @Component({
   selector: 'form-cliente',
   providers:[ ClienteService ],
@@ -16,9 +13,11 @@ export class ClienteListComponent implements OnInit{
   clientes:Cliente[];
   clienteSelected:Cliente = new Cliente();
   model = new Cliente();
+  private mensagem: String;
+  private error: String;
 
-  prepareExcuir(vacina:Vacina){
-    this.clienteSelected = vacina;
+  prepareExcuir(cliente:Cliente){
+    this.clienteSelected = cliente;
   }
 
   ngOnInit() {

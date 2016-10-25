@@ -17,8 +17,8 @@ var ClienteListComponent = (function () {
         this.clienteSelected = new Cliente_1.Cliente();
         this.model = new Cliente_1.Cliente();
     }
-    ClienteListComponent.prototype.prepareExcuir = function (vacina) {
-        this.clienteSelected = vacina;
+    ClienteListComponent.prototype.prepareExcuir = function (cliente) {
+        this.clienteSelected = cliente;
     };
     ClienteListComponent.prototype.ngOnInit = function () {
         this.listar();
