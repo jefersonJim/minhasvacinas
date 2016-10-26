@@ -7,6 +7,9 @@ var GenericService = (function () {
         this.urlServico = "http://localhost:8080/wsminhasvacinas/api/";
         this.urlServico += servico;
     }
+    GenericService.prototype.listar = function (entity) {
+        return this.http.get(this.urlServico).map(function (res) { return res.json(); });
+    };
     GenericService.prototype.cadastrar = function (entity) {
         var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
         var options = new http_1.RequestOptions({ headers: headers });

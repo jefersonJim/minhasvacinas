@@ -1,8 +1,14 @@
 import { Http,Headers, Response, RequestOptions } from '@angular/http';
-export abstract class GenericService<Entity> {
-	urlServico:string = "http://localhost:8080/wsminhasvacinas/api/";
+
+export class GenericService<Entity> {
+	public urlServico:string = "http://localhost:8080/wsminhasvacinas/api/";
+
     constructor(protected servico :string, protected http: Http) { 
     	this.urlServico += servico;
+    }
+
+    listar(entity: Entity) {
+       return this.http.get(this.urlServico).map(res => res.json());
     }
 
     cadastrar(entity: Entity) {
