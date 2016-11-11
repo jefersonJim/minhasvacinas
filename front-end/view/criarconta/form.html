@@ -1,0 +1,126 @@
+<div class="page-header" style="margin-top: 30px; text-align: center;">
+  <h1>Crie sua conta no Minhas Vacinas</h1>
+</div>
+<div class="col-md-8">
+	<div class="row col-md-12" style="font-size: 20px; text-align: center;">
+		<p>O melhor sistema de  controle vacinação do Brasil, O Minhas Vacinas foi criado para você gerenciar da melhor forma possivel as vacinas do seu Pet.</p>
+	</div>
+	<div class="col-md-12" style="text-align: center;">
+		<img src="./img/dog_cat.png" height="300px">
+	</div>
+
+	<div class="row col-md-12" style="font-size: 20px; text-align: center;">
+		<p>Mais conforto e praticidade com o cartão de vacina online, acesse sempre que precisar de forma rápida e segura.</p>
+	</div>
+
+	<div class="col-md-12" style="text-align: center; font-size: 30px;">
+		<i class="fa fa-facebook-official" aria-hidden="true"></i>
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+	</div>
+	<div class="col-md-12" style="text-align: center; font-size: 12px;">
+		© Copyright 2016-2017 Copyright.pt - All Rights Reserved
+	</div>
+</div>
+
+<div class="col-md-4" style="background: #f1f1f1; padding: 15px;">
+	<div class="row col-md-12" style="font-size: 12px; text-align: center;">
+		<p>Os campos com ( <span style="color:red;">*</span> ) são de preenchimento obrigatório</p>
+	</div>
+	<form>
+		<div class="col-md-12">
+			<label  class="required" >Nome completo: </label>
+			<input required type="text" name="nome"  class="form-control"  [(ngModel)]="model.nome" #nome="ngModel">
+			<div [hidden]="nome.valid || nome.pristine"  class="alert alert-danger">			
+			  Favor Informar seu nome
+			</div>
+		</div>
+
+		<div class="col-md-12" style="margin-top: 10px;">
+			<label  class="required" >CPF: </label>
+			<input required type="text" name="cpf"  class="form-control"  [(ngModel)]="model.cpf" #cpf="ngModel">
+			<div [hidden]="cpf.valid || cpf.pristine"  class="alert alert-danger">			
+			  Favor Informar seu CPF
+			</div>
+		</div>
+
+		<div class="col-md-6" style="margin-top: 10px;">
+			<label  class="required" >Celular: </label>
+			<input required type="text" name="celular"  class="form-control"  [(ngModel)]="model.celular" #celular="ngModel">
+			<div [hidden]="celular.valid || celular.pristine"  class="alert alert-danger">			
+			  Favor Informar seu Celular
+			</div>
+		</div>
+
+		<div class="col-md-6" style="margin-top: 10px;">
+			<label >Telefone: </label>
+			<input required type="text" name="telefone"  class="form-control"  [(ngModel)]="model.telefone" #telefone="ngModel">
+		</div>
+
+		<div class="col-md-12" style="margin-top: 10px;">
+			<label  class="required" >E-mail: </label>
+			<input required type="text" name="email"  class="form-control"  [(ngModel)]="model.email" #email="ngModel">
+			<div [hidden]="email.valid || email.pristine"  class="alert alert-danger">			
+			  Favor Informar seu Email
+			</div>
+		</div>
+
+		<div class="col-md-12" style="margin-top: 10px;">
+			<label class="required">Tipo Pessoa: </label>
+			<select required name="tipoPessoa" class="form-control"  [(ngModel)]="tipoPessoa" #tipo="ngModel">
+				<option value="1">Física</option>
+				<option value="2">Juridica</option>
+			</select>
+		</div>
+
+		<div class="col-md-12" style="margin-top: 20px;" *ngIf="tipoPessoa == 2">
+
+			<fieldset>
+				<legend>Empresa</legend> 
+				<div class="col-md-12" style="margin-top: 10px;">
+					<label  class="required" >Nome da empresa: </label>
+					<input required type="text" name="nome_empresa"  class="form-control"  [(ngModel)]="empresa.nome" #nomeempresa="ngModel">
+					<div [hidden]="nomeempresa.valid || nomeempresa.pristine"  class="alert alert-danger">			
+					  Digite o nome da sua Empresa
+					</div>
+				</div>
+
+				<div class="col-md-12" style="margin-top: 10px;">
+					<label  class="required" >CNPJ: </label>
+					<input required type="text" name="cnpj"  class="form-control"  [(ngModel)]="empresa.cnpj" #cnpj="ngModel">
+					<div [hidden]="cnpj.valid || cnpj.pristine"  class="alert alert-danger">			
+					  Digite o CNPJ da sua Empresa
+					</div>
+				</div>	
+			</fieldset>		
+		</div>
+
+		<div class="col-md-12" style="margin-top: 20px;">
+			<label  class="required" >Login: </label>
+			<input required type="text" name="login"  class="form-control"  [(ngModel)]="model.login" #login="ngModel">
+			<div [hidden]="login.valid || login.pristine"  class="alert alert-danger">			
+			  Digite um login
+			</div>
+		</div>
+
+		<div class="col-md-6" style="margin-top: 10px;">
+			<label  class="required" >Senha: </label>
+			<input required type="password" name="senha"  class="form-control"  [(ngModel)]="model.senha" #senha="ngModel">
+			<div [hidden]="senha.valid || senha.pristine"  class="alert alert-danger">			
+			  Digite uma senha
+			</div>
+		</div>
+
+		<div class="col-md-6" style="margin-top: 10px;">
+			<label  class="required" >Repita a Senha: </label>
+			<input required type="password" name="senhaRepete"  class="form-control"  [(ngModel)]="senhaRepete" #senharepete="ngModel">
+			<div [hidden]="senharepete.valid || senharepete.pristine"  class="alert alert-danger">			
+			  Repita a senha
+			</div>
+		</div>
+
+		<div class="col-md-12"  style="margin-top: 15px;">
+		    	<button type="button"  class="btn btn-success" (click)="cadastrar()">Cadastrar</button>
+		</div>
+	</form>
+</div>

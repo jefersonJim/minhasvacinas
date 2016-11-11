@@ -4,6 +4,7 @@ import { LoginComponent }   from './components/login/login.component';
 import { VacinaFormComponent }   from './components/vacina/vacina-form.component';
 import { VacinaListComponent }   from './components/vacina/vacina-list.component';
 import { ClienteFormComponent }   from './components/cliente/cliente-form.component';
+import { CriarContaFormComponent }   from './components/criarconta/criarconta-form.component';
 import { ClienteListComponent }   from './components/cliente/cliente-list.component';
 import { AtendimentoFormComponent }   from './components/atendimento/atendimento-form.component';
 /**
@@ -18,6 +19,7 @@ const appRoutes: Routes = [
   { path: 'cliente-form', component: ClienteFormComponent },
   { path: 'cliente-form/:id', component: ClienteFormComponent },
   { path: 'atendimento', component: AtendimentoFormComponent },
+  { path: 'criarconta', component: CriarContaFormComponent },
   { path: '', component: LoginComponent }
 ];
 

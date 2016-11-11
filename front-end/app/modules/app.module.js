@@ -17,6 +17,7 @@ var vacina_form_component_1 = require('../components/vacina/vacina-form.componen
 var vacina_list_component_1 = require('../components/vacina/vacina-list.component');
 var cliente_form_component_1 = require('../components/cliente/cliente-form.component');
 var cliente_list_component_1 = require('../components/cliente/cliente-list.component');
+var criarconta_form_component_1 = require('../components/criarconta/criarconta-form.component');
 var login_component_1 = require('../components/login/login.component');
 var atendimento_form_component_1 = require('../components/atendimento/atendimento-form.component');
 var menu_component_1 = require('../components/menu/menu.component');
@@ -31,7 +32,7 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing, http_1.HttpModule, http_1.JsonpModule],
             declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, vacina_form_component_1.VacinaFormComponent, vacina_list_component_1.VacinaListComponent,
-                login_component_1.LoginComponent, cliente_form_component_1.ClienteFormComponent, cliente_list_component_1.ClienteListComponent, atendimento_form_component_1.AtendimentoFormComponent],
+                login_component_1.LoginComponent, cliente_form_component_1.ClienteFormComponent, cliente_list_component_1.ClienteListComponent, atendimento_form_component_1.AtendimentoFormComponent, criarconta_form_component_1.CriarContaFormComponent],
             providers: [app_routing_1.appRoutingProviders],
             bootstrap: [app_component_1.AppComponent, menu_component_1.MenuComponent]
         }), 

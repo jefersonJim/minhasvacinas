@@ -4,6 +4,7 @@ var login_component_1 = require('./components/login/login.component');
 var vacina_form_component_1 = require('./components/vacina/vacina-form.component');
 var vacina_list_component_1 = require('./components/vacina/vacina-list.component');
 var cliente_form_component_1 = require('./components/cliente/cliente-form.component');
+var criarconta_form_component_1 = require('./components/criarconta/criarconta-form.component');
 var cliente_list_component_1 = require('./components/cliente/cliente-list.component');
 var atendimento_form_component_1 = require('./components/atendimento/atendimento-form.component');
 /**
@@ -18,6 +19,7 @@ var appRoutes = [
     { path: 'cliente-form', component: cliente_form_component_1.ClienteFormComponent },
     { path: 'cliente-form/:id', component: cliente_form_component_1.ClienteFormComponent },
     { path: 'atendimento', component: atendimento_form_component_1.AtendimentoFormComponent },
+    { path: 'criarconta', component: criarconta_form_component_1.CriarContaFormComponent },
     { path: '', component: login_component_1.LoginComponent }
 ];
 exports.appRoutingProviders = [];
