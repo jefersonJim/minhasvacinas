@@ -30,16 +30,16 @@ var CriarContaFormComponent = (function () {
     CriarContaFormComponent.prototype.cadastrar = function () {
         var _this = this;
         if (this.tipoPessoa == 1) {
-            this.pessoaService.cadastrar(this.model).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar"; }, function () { return _this.router.navigate(['/']); });
+            this.pessoaService.cadastrar(this.model).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar"; }, function () { return _this.router.navigate(['/bemvindo']); });
         }
         else {
             this.nivel.id = 1;
-            this.nivel.descricao = "Teste";
+            this.nivel.descricao = "Empresário";
             this.empresaPessoa.empresa = this.empresa;
             this.empresaPessoa.pessoa = this.model;
             this.empresaPessoa.nivel = this.nivel;
             console.log(this.empresaPessoa);
-            this.empresaPessoaService.cadastrar(this.empresaPessoa).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar cadastrar"; }, function () { return _this.router.navigate(['/']); });
+            this.empresaPessoaService.cadastrar(this.empresaPessoa).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar cadastrar"; }, function () { return _this.router.navigate(['/bemvindo']); });
         }
     };
     CriarContaFormComponent = __decorate([

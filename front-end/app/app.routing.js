@@ -7,6 +7,7 @@ var cliente_form_component_1 = require('./components/cliente/cliente-form.compon
 var criarconta_form_component_1 = require('./components/criarconta/criarconta-form.component');
 var cliente_list_component_1 = require('./components/cliente/cliente-list.component');
 var atendimento_form_component_1 = require('./components/atendimento/atendimento-form.component');
+var bemvindo_component_1 = require('./components/criarconta/bemvindo.component');
 /**
  * @author jeferson Inacio
  */
@@ -20,6 +21,7 @@ var appRoutes = [
     { path: 'cliente-form/:id', component: cliente_form_component_1.ClienteFormComponent },
     { path: 'atendimento', component: atendimento_form_component_1.AtendimentoFormComponent },
     { path: 'criarconta', component: criarconta_form_component_1.CriarContaFormComponent },
+    { path: 'bemvindo', component: bemvindo_component_1.BemVindoComponent },
     { path: '', component: login_component_1.LoginComponent }
 ];
 exports.appRoutingProviders = [];

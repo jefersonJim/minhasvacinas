@@ -14,7 +14,7 @@ var GenericService = (function () {
         var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
         var options = new http_1.RequestOptions({ headers: headers });
         var body = JSON.stringify(entity);
-        return this.http.post(this.urlServico, body, options).map(function (res) { return res.text(); });
+        return this.http.post(this.urlServico, entity, options).map(function (res) { return res.text(); });
     };
     GenericService.prototype.atualizar = function (entity) {
         var headers = new http_1.Headers({ 'Content-Type': 'application/json' });

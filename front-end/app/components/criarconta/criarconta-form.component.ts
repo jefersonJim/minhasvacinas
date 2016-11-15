@@ -26,17 +26,15 @@ export class CriarContaFormComponent {
 
 	cadastrar() {
 		if(this.tipoPessoa == 1){
-
 			this.pessoaService.cadastrar(this.model).subscribe(
 	            data => this.mensagem = data,
 	            error => this.error = "Erro ao tentar",
-	            () => this.router.navigate(['/'])
+	            () => this.router.navigate(['/bemvindo'])
 	        );
 
 		}else{
-
 			this.nivel.id=1;
-			this.nivel.descricao = "Teste"
+			this.nivel.descricao = "Empresário"
 			this.empresaPessoa.empresa = this.empresa;
 			this.empresaPessoa.pessoa = this.model;
 			this.empresaPessoa.nivel = this.nivel;
@@ -44,7 +42,7 @@ export class CriarContaFormComponent {
 	        this.empresaPessoaService.cadastrar(this.empresaPessoa).subscribe(
 	            data => this.mensagem = data,
 	            error => this.error = "Erro ao tentar cadastrar",
-	            () => this.router.navigate(['/'])
+	            () => this.router.navigate(['/bemvindo'])
 	        );
 		}
 

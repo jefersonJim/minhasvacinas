@@ -7,6 +7,7 @@ import { ClienteFormComponent }   from './components/cliente/cliente-form.compon
 import { CriarContaFormComponent }   from './components/criarconta/criarconta-form.component';
 import { ClienteListComponent }   from './components/cliente/cliente-list.component';
 import { AtendimentoFormComponent }   from './components/atendimento/atendimento-form.component';
+import { BemVindoComponent }   from './components/criarconta/bemvindo.component';
 /**
  * @author jeferson Inacio
  */
@@ -20,6 +21,7 @@ const appRoutes: Routes = [
   { path: 'cliente-form/:id', component: ClienteFormComponent },
   { path: 'atendimento', component: AtendimentoFormComponent },
   { path: 'criarconta', component: CriarContaFormComponent },
+  { path: 'bemvindo', component: BemVindoComponent },
   { path: '', component: LoginComponent }
 ];
 

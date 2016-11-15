@@ -15,7 +15,7 @@ export class GenericService<Entity> {
         let headers = new Headers({ 'Content-Type': 'application/json'});
         let options = new RequestOptions({ headers: headers });
         let body = JSON.stringify(entity);
-        return this.http.post(this.urlServico, body, options).map(res => res.text());
+        return this.http.post(this.urlServico, entity, options).map(res => res.text());
     }
 
     atualizar(entity: Entity) {

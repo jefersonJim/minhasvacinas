@@ -9,17 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AtendimentoFormComponent = (function () {
-    function AtendimentoFormComponent() {
+var BemVindoComponent = (function () {
+    function BemVindoComponent() {
     }
-    AtendimentoFormComponent = __decorate([
+    BemVindoComponent = __decorate([
         core_1.Component({
-            selector: 'form-atendimento',
-            templateUrl: './view/atendimento_form.html'
+            templateUrl: './view/criarconta/bemvindo.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AtendimentoFormComponent);
-    return AtendimentoFormComponent;
+    ], BemVindoComponent);
+    return BemVindoComponent;
 }());
-exports.AtendimentoFormComponent = AtendimentoFormComponent;
-//# sourceMappingURL=atendimento-form.component.js.map
+exports.BemVindoComponent = BemVindoComponent;
+//# sourceMappingURL=bemvindo.component.js.map
