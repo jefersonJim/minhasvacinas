@@ -1,5 +1,5 @@
-import { Component} from '@angular/core';
-import { OnInit } from '@angular/core';
+import {Component} from '@angular/core';
+import {OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {Pessoa} from '../../models/Pessoa';
 import {Empresa} from '../../models/Empresa';
@@ -23,22 +23,21 @@ export class CriarContaFormComponent {
 	empresa = new Empresa();
 	empresaPessoa = new EmpresaPessoa();
 	nivel = new Nivel();
+	public mask = ['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]
 
 	cadastrar() {
 		if(this.tipoPessoa == 1){
 			this.pessoaService.cadastrar(this.model).subscribe(
 	            data => this.mensagem = data,
-	            error => this.error = "Erro ao tentar",
+	            error => this.error = "Erro ao tentar cadastrar",
 	            () => this.router.navigate(['/bemvindo'])
 	        );
 
 		}else{
 			this.nivel.id=1;
-			this.nivel.descricao = "Empresário"
 			this.empresaPessoa.empresa = this.empresa;
 			this.empresaPessoa.pessoa = this.model;
 			this.empresaPessoa.nivel = this.nivel;
-			console.log(this.empresaPessoa);
 	        this.empresaPessoaService.cadastrar(this.empresaPessoa).subscribe(
 	            data => this.mensagem = data,
 	            error => this.error = "Erro ao tentar cadastrar",

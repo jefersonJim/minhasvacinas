@@ -26,19 +26,18 @@ var CriarContaFormComponent = (function () {
         this.empresa = new Empresa_1.Empresa();
         this.empresaPessoa = new EmpresaPessoa_1.EmpresaPessoa();
         this.nivel = new Nivel_1.Nivel();
+        this.mask = ['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
     }
     CriarContaFormComponent.prototype.cadastrar = function () {
         var _this = this;
         if (this.tipoPessoa == 1) {
-            this.pessoaService.cadastrar(this.model).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar"; }, function () { return _this.router.navigate(['/bemvindo']); });
+            this.pessoaService.cadastrar(this.model).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar cadastrar"; }, function () { return _this.router.navigate(['/bemvindo']); });
         }
         else {
             this.nivel.id = 1;
-            this.nivel.descricao = "Empresário";
             this.empresaPessoa.empresa = this.empresa;
             this.empresaPessoa.pessoa = this.model;
             this.empresaPessoa.nivel = this.nivel;
-            console.log(this.empresaPessoa);
             this.empresaPessoaService.cadastrar(this.empresaPessoa).subscribe(function (data) { return _this.mensagem = data; }, function (error) { return _this.error = "Erro ao tentar cadastrar"; }, function () { return _this.router.navigate(['/bemvindo']); });
         }
     };

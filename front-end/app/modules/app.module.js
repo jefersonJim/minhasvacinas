@@ -12,11 +12,14 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
+//import { TextMaskModule } from 'angular2-text-mask';
 var app_component_1 = require('../components/app.component');
 var vacina_form_component_1 = require('../components/vacina/vacina-form.component');
 var vacina_list_component_1 = require('../components/vacina/vacina-list.component');
 var cliente_form_component_1 = require('../components/cliente/cliente-form.component');
 var cliente_list_component_1 = require('../components/cliente/cliente-list.component');
+var cartaovacina_list_component_1 = require('../components/cartaovacina/cartaovacina-list.component');
+var cartaovacina_form_component_1 = require('../components/cartaovacina/cartaovacina-form.component');
 var criarconta_form_component_1 = require('../components/criarconta/criarconta-form.component');
 var bemvindo_component_1 = require('../components/criarconta/bemvindo.component');
 var login_component_1 = require('../components/login/login.component');
@@ -33,7 +36,8 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing, http_1.HttpModule, http_1.JsonpModule],
             declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, vacina_form_component_1.VacinaFormComponent, vacina_list_component_1.VacinaListComponent,
-                login_component_1.LoginComponent, cliente_form_component_1.ClienteFormComponent, cliente_list_component_1.ClienteListComponent, atendimento_form_component_1.AtendimentoFormComponent, criarconta_form_component_1.CriarContaFormComponent, bemvindo_component_1.BemVindoComponent],
+                login_component_1.LoginComponent, cliente_form_component_1.ClienteFormComponent, cliente_list_component_1.ClienteListComponent, atendimento_form_component_1.AtendimentoFormComponent, criarconta_form_component_1.CriarContaFormComponent, bemvindo_component_1.BemVindoComponent,
+                cartaovacina_form_component_1.CartaoVacinaFormComponent, cartaovacina_list_component_1.CartaoVacinaListComponent],
             providers: [app_routing_1.appRoutingProviders],
             bootstrap: [app_component_1.AppComponent, menu_component_1.MenuComponent]
         }), 

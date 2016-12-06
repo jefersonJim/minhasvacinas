@@ -1,0 +1,42 @@
+<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">	
+	<div class="page-header">
+	  <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i> Cartão de vacina <small> - consulta</small>
+	  	  <small class="bt_header">
+	  	  	<a routerLink="/cartaovacina-form" ><i class="fa fa-plus-square" aria-hidden="true"></i> novo </a>
+	  	  </small>
+	  </h3>
+	</div>
+
+
+	
+	<div *ngFor="let cartao of cartoesVacina" class="col-md-4 ">
+		<div class="cartao">
+			<div class="col-md-12" style="text-align: center; margin-top: 15px;">
+				<img class="thumbnail" src="./img/dog_cat.png" style="margin: auto;" width="150" height="150">
+			</div>
+			<div class="col-md-12" style="margin-top: 15px;">
+				<table class="table table-bordered">
+					<tr>
+						<td style="font-weight: bold;">PET</td>
+						<td>{{cartao.nomePet}}</td>
+					</tr>
+					<tr>
+						<td style="font-weight: bold;">Espécie</td>
+						<td>{{cartao.especie}}</td>
+					</tr>
+					<tr>
+						<td style="font-weight: bold;">Raça</td>
+						<td>{{cartao.raca}}</td>
+					</tr>
+
+					<tr>
+						<td style="font-weight: bold;">Sexo</td>
+						<td>{{cartao.sexo}}</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	  
+</div>

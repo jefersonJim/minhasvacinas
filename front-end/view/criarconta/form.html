@@ -24,6 +24,9 @@
 </div>
 
 <div class="col-md-4" style="background: #f1f1f1; padding: 15px;">
+	<div class="row col-md-12">
+		<div [hidden]="error == null" class=" col-md-12 alert alert-danger">{{error}}</div>
+	</div>
 	<div class="row col-md-12" style="font-size: 12px; text-align: center;">
 		<p>Os campos com ( <span style="color:red;">*</span> ) são de preenchimento obrigatório</p>
 	</div>
@@ -39,7 +42,7 @@
 		<div class="col-md-12" style="margin-top: 10px;">
 			<label  class="required" >CPF: </label>
 			<input required type="text" name="cpf"  class="form-control"  [(ngModel)]="model.cpf" #cpf="ngModel">
-			<div [hidden]="cpf.valid || cpf.pristine"  class="alert alert-danger">			
+			<div  [hidden]="cpf.valid || cpf.pristine"  class="alert alert-danger">			
 			  Favor Informar seu CPF
 			</div>
 		</div>

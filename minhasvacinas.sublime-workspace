@@ -4,6 +4,150 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"mart",
+				"margin-bottom"
+			],
+			[
+				"t",
+				"table\tTag"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"Car",
+				"CartaoVacinaService\talias"
+			],
+			[
+				"se",
+				"service\tproperty"
+			],
+			[
+				"im",
+				"implements\tkeyword"
+			],
+			[
+				"Catao",
+				"CartaoVacinaService\talias"
+			],
+			[
+				"m",
+				"medida\tproperty"
+			],
+			[
+				"me",
+				"medida\tproperty"
+			],
+			[
+				"p",
+				"push\tmethod"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Tp",
+				"TpMedidaService\talias"
+			],
+			[
+				"pro",
+				"providers\tproperty"
+			],
+			[
+				"col-md",
+				"col-md-12"
+			],
+			[
+				"func",
+				"function\tkeyword"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"car",
+				"CartaoVacinaListComponent\talias"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"h",
+				"height\tAttr"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"ty",
+				"type\tAttr"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"Criar",
+				"CriarContaFormComponent"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
 				"frameIndex",
 				"frameIndexJump"
 			],
@@ -12,20 +156,12 @@
 				"cord_x"
 			],
 			[
-				"col",
-				"col_c"
-			],
-			[
 				"w",
 				"width"
 			],
 			[
 				"img",
 				"imgJump"
-			],
-			[
-				"p",
-				"perdeu"
 			],
 			[
 				"lo",
@@ -38,10 +174,6 @@
 			[
 				"he",
 				"heightObstaculo"
-			],
-			[
-				"wi",
-				"widthObstaculo"
 			],
 			[
 				"fun",
@@ -60,28 +192,8 @@
 				"obstaculos"
 			],
 			[
-				"in",
-				"indiceObstaculo"
-			],
-			[
 				"obs",
 				"obstacles"
-			],
-			[
-				"li",
-				"link	Tag"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"di",
-				"div	Tag"
-			],
-			[
-				"h",
-				"href"
 			],
 			[
 				"tex",
@@ -93,75 +205,77 @@
 			],
 			[
 				"s",
-				"script	Tag"
+				"script\tTag"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "front-end/app/components/app.component.ts",
+			"file": "front-end/view/cartaovacina/list.html",
 			"settings":
 			{
-				"buffer_size": 198,
+				"buffer_size": 1189,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "front-end/app/components/login.component.ts",
+			"file": "front-end/css/styles.css",
 			"settings":
 			{
-				"buffer_size": 267,
-				"line_ending": "Windows",
-				"name": "import { Component} from '@angular/core';"
-			}
-		},
-		{
-			"file": "front-end/app/components/vacina-form.component.ts",
-			"settings":
-			{
-				"buffer_size": 305,
-				"line_ending": "Windows",
-				"name": "import { Component} from '@angular/core';"
-			}
-		},
-		{
-			"file": "front-end/view/vacina_form.html",
-			"settings":
-			{
-				"buffer_size": 829,
+				"buffer_size": 622,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "front-end/view/login.html",
+			"file": "front-end/view/cartaovacina/form.html",
 			"settings":
 			{
-				"buffer_size": 1102,
+				"buffer_size": 4894,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "front-end/index.html",
+			"file": "front-end/app/app.routing.ts",
 			"settings":
 			{
-				"buffer_size": 1247,
+				"buffer_size": 2046,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end/app/components/vacina/vacina-list.component.ts",
+			"settings":
+			{
+				"buffer_size": 1104,
 				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 432.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 126.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -172,8 +286,70 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/generics",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/cartaovacina",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/cliente"
+	],
 	"file_history":
 	[
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/CartaoVacina.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/cliente/list.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/cartaovacina/list.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/cartaovacina-service.js.map",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/cliente/form.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/cartaovacina/cartaovacina-form.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/cartaovacina-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/cartaovacina/form.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/cartaovacina/cartaovacina-list.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/cliente-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/generics/generic-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/cliente/cliente-list.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/TpMedida.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/tpmedida-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Medida.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/package.json",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/criarconta/bemvindo.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/modules/app.module.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/login/login.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/menu/menu.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/menu/menu.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/app.routing.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/criarconta/form.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/criarconta/criarconta-form.component.js",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/atendimento/form.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/index.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/css/styles.css",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/criarconta/criarconta-form.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/node_modules/text-mask-core/src/createTextMaskInputElement.d.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/criarconta/bemvindo.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/empresapessoa-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/empresapessoa-service.js.map",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/cliente-service.js",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Pessoa.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Nivel.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/EmpresaPessoa.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/pessoa-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/pessoa-service.js",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Pessoa.js",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/service/vacina-service.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Empresa.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/EmpresaPessoa.js",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Cliente.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/login/login.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/models/Usuario.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/criarconta/criarconta-form.component",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/app.routing.js",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/app.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/vacina-form.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/app/components/login.component.ts",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/login.html",
+		"/C/Users/Jefferson/Programmer/projetos_front/minhasvacinas/front-end/view/vacina_form.html",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/app.routing.ts",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/modules/app.module.ts",
 		"/C/Users/USER/Documents/desenvolvimento/projetos_faculdade/minhasvacinas/front-end/app/main.ts",
@@ -249,18 +425,11 @@
 		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/local.properties",
 		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/teste/index.php",
 		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/template/modelo_1/index.html",
-		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/.idea/runConfigurations.xml",
-		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/settings.gradle",
-		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/.idea/.name",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/views/templates/menu.php",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/controllers/Home.php",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/controllers/Login.php",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/config/database.php",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC9/data/localweb/selecaoprofessor/application/core/MY_Controller.php"
+		"/C/Users/USER/Documents/desenvolvimento/projetos_android/RoutineEeminder/.idea/runConfigurations.xml"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -274,6 +443,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\t\t\n",
+			"no",
+			"<!--",
 			"Login.ts",
 			"Login",
 			"cod",
@@ -305,165 +477,158 @@
 			[
 				{
 					"buffer": 0,
-					"file": "front-end/app/components/app.component.ts",
+					"file": "front-end/view/cartaovacina/list.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 198,
+						"buffer_size": 1189,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								165,
-								165
+								1085,
+								1085
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "front-end/app/components/login.component.ts",
+					"file": "front-end/css/styles.css",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 622,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								216,
-								216
+								601,
+								601
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import { Component} from '@angular/core';",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "front-end/app/components/vacina-form.component.ts",
+					"file": "front-end/view/cartaovacina/form.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 305,
+						"buffer_size": 4894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								124,
-								124
+								4157,
+								4157
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import { Component} from '@angular/core';",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1052.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "front-end/view/vacina_form.html",
+					"file": "front-end/app/app.routing.ts",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 829,
+						"buffer_size": 2046,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								1913,
+								1913
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "front-end/view/login.html",
+					"file": "front-end/app/components/vacina/vacina-list.component.ts",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1102,
+						"buffer_size": 1104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1065,
-								920
+								426,
+								433
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "front-end/index.html",
-					"settings":
-					{
-						"buffer_size": 1247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1155,
-								1155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -471,7 +636,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -500,31 +665,139 @@
 		]
 	},
 	"menu_visible": true,
-	"replace":
+	"output.doc":
 	{
 		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "minhasvacinas.sublime-project",
+	"replace":
+	{
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"list",
+				"view\\cartaovacina\\list.html"
+			],
+			[
+				"for",
+				"view\\cartaovacina\\form.html"
+			],
+			[
+				"atendimento",
+				"view\\atendimento\\form.html"
+			],
+			[
+				"bem",
+				"view\\criarconta\\bemvindo.html"
+			],
+			[
+				"criarconta",
+				"view\\criarconta\\form.html"
+			],
+			[
+				"form",
+				"view\\cliente\\form.html"
+			],
+			[
+				"app.rou",
+				"app\\app.routing.ts"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"sty",
+				"css\\styles.css"
+			],
+			[
+				"menu",
+				"view\\menu\\menu.html"
+			],
+			[
+				"cirarconta/fo",
+				"view\\criarconta\\form.html"
+			],
+			[
+				"criar",
+				"app\\components\\criarconta\\criarconta-form.component.ts"
+			],
+			[
+				"men",
+				"view\\menu\\menu.html"
+			],
+			[
+				"cliente/li",
+				"view\\cliente\\list.html"
+			],
+			[
+				"cliente/f",
+				"view\\cliente\\form.html"
+			],
+			[
+				"generic",
+				"app\\generics\\generic-service.ts"
+			],
+			[
+				"pessoa-ser",
+				"app\\service\\pessoa-service.ts"
+			],
+			[
+				"pessoaser",
+				"app\\service\\pessoa-service.js"
+			],
+			[
+				"pessoa.ts",
+				"app\\models\\Pessoa.ts"
+			],
+			[
+				"pess",
+				"app\\models\\Pessoa.js"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 261.0,
-	"status_bar_visible": true
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

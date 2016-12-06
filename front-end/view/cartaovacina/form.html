@@ -1,0 +1,126 @@
+<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">
+	<div class="page-header">
+	  <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i> Cartão de vacina <small> - {{state}}</small>
+	  	  <small class="bt_header">
+	  	  	<a routerLink="/cartaovacina" ><i class="fa fa-reply" aria-hidden="true"></i> voltar </a>
+	  	  </small>
+	  </h3>
+	</div>
+
+	<div class="col-md-4">
+		<div class="col-md-12" style="text-align: center;">
+			<img class="thumbnail" src="" style="margin: auto;" width="200" height="200">
+		</div>
+		<div class="col-md-12"  style="margin-top: 15px;">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			  		<i class="fa fa-bar-chart" aria-hidden="true"></i> Medidas
+			  		<button data-toggle="modal" data-target="#modalMedidas" class="btn btn-success btn-xs" style="float: right;"><i class="fa fa-plus-square" aria-hidden="true"></i> Adicionar</button>
+			  	</div>
+			  <div class="panel-body">
+			    <table class="table table-bordered">
+			    	<thead>
+			    		<tr>
+			    			<td style="text-align: center;">Descrição</td>
+			    			<td style="text-align: center;" >Valor</td>
+			    		</tr>
+			    	</thead>
+			    	<tbody>
+			    		<tr *ngFor="let medida of model.medidas">
+			    			<td>{{medida.tpMedida.descricao}}</td>
+			    			<td>{{medida.valor}}</td>
+			    		</tr>
+
+			    		<tr *ngIf="model.medidas == null || model.medidas.length == 0 "><td colspan="2" style="text-align: center;">Nenhum registro.</td></tr>
+			    	</tbody>
+			    </table>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-8">
+		<form >
+			<div class="row" style="margin-top: 5px;">
+				<div class="col-md-12">
+					<label  class="required" >Nome do pet: </label>
+					<input required type="text" name="nome"  class="form-control" [(ngModel)]="model.nomePet" #pet="ngModel">
+					<div [hidden]="pet.valid || pet.pristine"  class="alert alert-danger">			
+					  Favor Informar o nome do PET
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="margin-top: 5px;">
+				<div class="col-md-6">
+					<label  class="required" >Espécie: </label>
+					<input required type="text" name="especie"  class="form-control" [(ngModel)]="model.especie" #especie="ngModel">
+					<div [hidden]="especie.valid || especie.pristine"  class="alert alert-danger">			
+					  Favor Informar a Espécie do PET
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<label  class="required" >Raça: </label>
+					<input required type="text" name="raca"  class="form-control" [(ngModel)]="model.raca" #raca="ngModel">
+					<div [hidden]="raca.valid || raca.pristine"  class="alert alert-danger">			
+					  Favor Informar a Raça do Pet
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 5px;">
+				<div class="col-md-6">
+					<label  class="required" >Sexo: </label>
+					<select required class="form-control" name="sexo" [(ngModel)]="model.sexo" #sexo="ngModel">
+						<option>Selecione</option>
+						<option value="M">Macho</option>
+						<option value="F"> Fêmea</option>
+					</select>
+					<div [hidden]="sexo.valid || sexo.pristine"  class="alert alert-danger">			
+					  Favor Informar o Raça do Pet
+					</div>
+				</div>
+
+				<!-- <div class="col-md-6">
+					<label  class="required" >Dt. Nascimento </label>
+					<input required type="text" name="nascimento"  class="form-control" [(ngModel)]="model.nascimento" #nascimento111="ngModel">
+					<div [hidden]="sexo.valid || sexo.pristine"  class="alert alert-danger">			
+					  Favor Informar da de nascimento
+					</div>
+				</div> -->
+			</div>
+
+			<div class="row" style="margin-top: 20px; text-align: center;">
+				<div class="col-md-12"> 
+					<button (click)="salvar()"  type="button" class="btn btn-success">{{labelBtn}}</button>
+				</div>
+			</div>
+		</form>
+	</div> 
+</div>
+
+
+<div  class="modal fade" id="modalMedidas" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"><i class="fa fa-bar-chart" aria-hidden="true"></i> Adicionar medida</h4>
+      </div>
+      <div class="modal-body">
+      	<label>Tipo de Medida:</label>
+  		<select class="form-control" [(ngModel)]="medida.tpMedida">
+  			<option *ngFor="let tipo of tpMididas" [ngValue]="tipo">{{tipo.descricao}}</option>
+  		</select>
+
+  		<label style="margin-top: 10px;">Valor:</label>
+  		<input type="text" class="form-control" [(ngModel)]="medida.valor">
+      	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal"  (click)="adicionarMedidas()" >Adcionar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>

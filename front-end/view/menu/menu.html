@@ -1,16 +1,6 @@
-<style type="text/css">
-	.navbar-collapse a{
-		color:#ffffff;
-	}
-
-	.dropdown li a{
-		color:#000;	
-	}
-</style>
-
 <!-- \\================================< Menu >===========================================================================  -->
-<nav class="navbar navbar-default navbar-fixed-top" >
-    <div class="container-fluid" style=" background: #54acd4;">
+<nav class="navbar navbar-default navbar-fixed-top" style="box-shadow: 0px -2px 10px;">
+    <div class="container-fluid menu" >
     	<!--  Marca e  alternância se agrupado para melhor visualização móvel -->
 		<div class="navbar-header">
 	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -19,7 +9,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#" style="color:#fff;">Minhas vacinas</a>
+	      <a class="navbar-brand" href="#" ><i class="fa fa-paw" aria-hidden="true"></i> Minhas vacinas</a>
 	    </div>	
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" *ngIf="showmenu">
@@ -34,7 +24,7 @@
 		            <!-- <li><a href="#">Funcionários</a></li> -->
 		          </ul>
 		        </li>
-		        <li ><a routerLink="/atendimento" ><i class="fa fa-newspaper-o" aria-hidden="true"></i> Cartão de vacina </a></li>
+		        <li ><a routerLink="/cartaovacina" ><i class="fa fa-newspaper-o" aria-hidden="true"></i> Cartão de vacina </a></li>
 		      </ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
